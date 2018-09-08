@@ -12,3 +12,9 @@ go build Method.go
 go build Interface.go
 go build TypeAssert.go
 go build Errors.go
+go build Defer.go
+go build Panic.go
+go build Recover.go
+go build Goroutine.go
+go build Goroutine2.go
+go build Channels.go
