@@ -23,4 +23,14 @@ func main() {
 
 	fmt.Println(m)
 
+	val, exists := m[999]
+	if !exists {
+		println("Not found.")
+	} else {
+		println(val)
+	}
+
+	for key, val := range m {
+		fmt.Println(key, val)
+	}
 }
